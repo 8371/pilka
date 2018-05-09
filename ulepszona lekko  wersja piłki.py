@@ -1,6 +1,9 @@
 import pygame
 import time
 from pprint import pprint
+# krótki opis co u jest a więc: ruchy robione przez graczy mają osobne
+# kolorki, jest funkcja cofania ruchu (klawisz f), zrobiłem tabele zamiast grafu, na planszy wyświetla się liczba 
+# dostępnych krawędzi, gdy wjedziemy w róg czyli 0 sąsiadów koniec gry
 zapis=''
 def start():
     global srodek,table,ekran,boisko,lenx,leny,o,draw,color,out,table,zapis,zmianax,x
